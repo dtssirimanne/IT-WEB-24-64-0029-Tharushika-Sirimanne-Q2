@@ -1,0 +1,12 @@
+Q2)  iv)
+
+A. - SELECT * from Students
+
+B. -  SELECT student_id, name, city FROM Students WHERE city = 'kandy';
+
+C. - UPDATE Students SET city = 'Galle' WHERE student_id = 4;
+
+D. - SELECT Students.*, Courses.course_name
+     FROM Students
+     JOIN Enrollments ON Students.student_id = Enrollments.student_id
+     JOIN Courses ON Enrollments.course_id = Courses.course_id;
